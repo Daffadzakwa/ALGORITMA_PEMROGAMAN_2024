@@ -1,0 +1,8 @@
+# Tipe data float untuk menyimpan nilai
+nilai_tugas = float(input("Nilai tugas biologi: "))
+nilai_uts = float(input("Nilai UTS biologi: "))
+nilai_uas = float(input("Nilai UAS biologi: "))
+# Hitung rata-rata
+rata_rata = (nilai_tugas + nilai_uts + nilai_uas) / 3
+# Menampilkan hasil rata-rata
+print(f"Nilai rata-rata adalah: {rata_rata:.2f}")
